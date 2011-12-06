@@ -1,0 +1,4 @@
+- rename packages
+- add example for collections api with parallel support
+- enhance scalatest example
+- add jpa example
