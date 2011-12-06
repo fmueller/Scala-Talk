@@ -1,4 +1,4 @@
-package de.adesso.scalatalk.first
+package de.adesso.scalatalk.basic
 
 class Greeter(greetingPrefix: String) {
 

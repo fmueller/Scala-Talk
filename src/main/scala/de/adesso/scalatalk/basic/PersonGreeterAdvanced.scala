@@ -1,4 +1,4 @@
-package de.adesso.scalatalk.first
+package de.adesso.scalatalk.basic
 
 sealed trait Human
 case class Adessi(firstname: String, surname: String, age: Int) extends Human

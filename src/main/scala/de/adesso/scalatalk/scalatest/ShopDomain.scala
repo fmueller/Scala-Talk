@@ -1,4 +1,4 @@
-package de.adesso.scalatalk.second
+package de.adesso.scalatalk.scalatest
 
 import java.util.Date
 

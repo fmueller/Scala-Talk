@@ -1,4 +1,4 @@
-package de.adesso.scalatalk.first
+package de.adesso.scalatalk.basic
 
 class Person(val firstname: String,
     val surname: String,
