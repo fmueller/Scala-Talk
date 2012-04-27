@@ -7,5 +7,5 @@ case class Item(name: String, price: Long)
 
 case class Order(customer: Customer, items: List[Item]) {
 
-  def calculatePrice() = items.map(_.price).foldLeft(0L)(_ + _)
+  def calculatePrice() = items.map(item => item.price).foldLeft(0L)((left, right) => left + right)
 }
